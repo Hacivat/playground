@@ -1,0 +1,53 @@
+# Unity generated folders
+/Library/
+/Temp/
+/Obj/
+/obj/
+/Build/
+/Builds/
+/Logs/
+/UserSettings/
+/MemoryCaptures/
+/Recordings/
+
+# Unity generated files
+*.csproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Crash and profiling artifacts
+sysinfo.txt
+*.stackdump
+
+# Asset store and package manager cache artifacts
+/Assets/AssetStoreTools*
+/Packages/packages-lock.json.tmp
+
+# IDE/editor folders
+/.vs/
+/.vscode/
+/.idea/
+/.consulo/
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Codex/local agent state
+/.agents/
+/.codex/
