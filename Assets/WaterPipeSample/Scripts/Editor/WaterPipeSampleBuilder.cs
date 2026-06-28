@@ -91,8 +91,8 @@ namespace WaterPipeSample.Editor
             }
 
             Material material = LoadOrCreateMaterial(MaterialFolder + "/M_TransparentWater.mat", shader);
-            material.SetColor("_BaseColor", new Color(0.04f, 0.72f, 1.0f, 1.0f));
-            material.SetFloat("_Opacity", 0.38f);
+            material.SetColor("_BaseColor", new Color(0.015f, 0.38f, 0.72f, 1.0f));
+            material.SetFloat("_Opacity", 0.42f);
             material.SetTexture("_FlowNoise", textures.flowNoise);
             material.SetTexture("_DetailNoise", textures.detailNoise);
             material.SetTexture("_NormalMap", textures.normalMap);
@@ -110,8 +110,8 @@ namespace WaterPipeSample.Editor
             material.SetFloat("_BubbleThreshold", 0.74f);
             material.SetFloat("_BubbleIntensity", 0.15f);
             material.SetFloat("_FresnelPower", 3.0f);
-            material.SetFloat("_FresnelIntensity", 0.25f);
-            material.SetFloat("_EmissionIntensity", 0.15f);
+            material.SetFloat("_FresnelIntensity", 0.18f);
+            material.SetFloat("_EmissionIntensity", 0.06f);
             material.renderQueue = 3000;
             EditorUtility.SetDirty(material);
             return material;

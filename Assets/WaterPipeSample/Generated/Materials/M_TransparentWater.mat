@@ -46,18 +46,18 @@ Material:
     - _DetailFlowSpeed: -0.18
     - _DetailTiling: 3
     - _DistortionStrength: 0.035
-    - _EmissionIntensity: 0.15
+    - _EmissionIntensity: 0.06
     - _FlowSpeed: 0.35
     - _FlowTiling: 1
-    - _FresnelIntensity: 0.25
+    - _FresnelIntensity: 0.18
     - _FresnelPower: 3
     - _NormalFlowSpeedA: 0.25
     - _NormalFlowSpeedB: -0.14
     - _NormalStrength: 0.5
     - _NormalTilingA: 1.4
     - _NormalTilingB: 3.3
-    - _Opacity: 0.38
+    - _Opacity: 0.42
     m_Colors:
-    - _BaseColor: {r: 0.04, g: 0.72, b: 1, a: 1}
+    - _BaseColor: {r: 0.015, g: 0.38, b: 0.72, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
